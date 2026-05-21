@@ -40,7 +40,7 @@ const cardData: cardDataType[] = [
 
 const Buyers = () => {
   return (
-      <section className="mx-auto max-w-7xl py-20 px-6">
+      <section className="mx-auto max-w-7xl py-20 px-6" id="servicos">
 
         <div className="text-center mb-16">
         <span className="text-[#050a30] font-semibold uppercase tracking-wider">

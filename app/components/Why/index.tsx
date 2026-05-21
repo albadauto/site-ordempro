@@ -25,7 +25,7 @@ const whydata: whydata[] = [
 
 const Why = () => {
   return (
-      <section id="about">
+      <section id="vantagens">
         <div className="mx-auto max-w-7xl px-4 my-20 sm:py-24 lg:px-8">
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">

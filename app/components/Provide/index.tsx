@@ -36,7 +36,7 @@ const Aboutdata: datatype[] = [
 
 const Provide = () => {
   return (
-      <section id="services">
+      <section id="conheca">
         <div className="mx-auto max-w-7xl px-4 my-10 sm:py-20 lg:px-8">
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">

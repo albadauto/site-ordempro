@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Clientsay = () => {
   return (
-      <section className="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:px-8" id="nossosclientes">
 
         <div className="bg-[#f4f7ff] rounded-[40px] py-20 px-6 lg:px-16 relative overflow-hidden">
 

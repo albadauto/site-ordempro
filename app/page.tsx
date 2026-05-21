@@ -6,6 +6,7 @@ import Why from './components/Why/index';
 import Network from './components/Network/index';
 import Clientsay from './components/Clientsay/index';
 import Newsletter from './components/Newsletter/Newsletter';
+import Prices from "@/app/components/Prices";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Buyers />
       <Provide />
       <Why />
+        <Prices />
       <Clientsay />
     </main>
   )
