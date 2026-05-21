@@ -24,7 +24,7 @@ const Data = () => {
     <div className="rounded-md max-w-sm w-full mx-auto">
       <div className="flex-1 space-y-4 py-1">
         <div className="sm:block">
-          <div className="space-y-1 px-5 pt-2 pb-3">
+          <div className="space-y-1 px-5 pt-2 pb-3 mb-5">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -38,14 +38,18 @@ const Data = () => {
                 {item.name}
               </Link>
             ))}
-            <div className="mt-4"></div>
-            <button className="bg-white w-full text-blue border border-lightblue font-medium py-2 px-4 rounded">
-              Sign In
-            </button>
-            <button className="bg-gray w-full hover:bg-blue hover:text-white text-blue font-medium my-2 py-2 px-4 rounded">
-              Sign up
-            </button>
+            <div className="mt-10"></div>
+
           </div>
+          <div className="flex-1 py-1 p-7">
+
+            <a href="https://ordempro.seqo.com.br/" target="_blank"
+               className="text-black py-2 px-10 transition duration-150 ease-in-out leafbutton bg-[#c1ff72] hover:text-white hover:bg-[#050a30]"
+            >
+              Criar conta
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
