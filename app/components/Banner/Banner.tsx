@@ -4,14 +4,14 @@ const Banner = () => {
   return (
       <main>
         <div className="px-6 lg:px-8">
-          <div className="mx-auto max-w-7xl pt-16 sm:pt-20 pb-20 banner-image">
+          <div className="mx-auto max-w-7xl pt-10 sm:pt-20 pb-20 banner-image">
 
             <div className="text-center">
-            <span className="bg-[#050a30]/10 text-[#050a30] px-4 py-2 rounded-full text-sm font-medium">
+            <span className="bg-[#050a30]/10 text-[#050a30] px-3 py-1.5 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-semibold mt-10">
               Sistema para Assistências Técnicas
             </span>
 
-              <h1 className="mt-6 text-4xl font-bold text-[#050a30] sm:text-5xl lg:text-7xl leading-tight">
+              <h1 className="mt-2 text-4xl font-bold text-[#050a30] sm:text-5xl lg:text-7xl leading-tight">
                 Controle suas ordens de serviço
                 <br />
                 e permita que clientes acompanhem tudo em tempo real.
