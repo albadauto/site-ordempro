@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { getImagePath } from "../../../lib/utils";
 
 const Newsletter = () => {
   return (
@@ -10,14 +9,14 @@ const Newsletter = () => {
           <div className="hidden lg:block">
             <div className="float-right pt-20 relative">
               <Image
-                src={getImagePath("/assets/newsletter/bgImage.png")}
+                src="/assets/newsletter/bgImage.png"
                 alt="bgimg"
                 width={588}
                 height={334}
               />
               <div className="absolute top-10 right-0">
                 <Image
-                  src={getImagePath("/assets/newsletter/leaf.svg")}
+                  src="/assets/newsletter/leaf.svg"
                   alt="leafimg"
                   width={81}
                   height={81}
@@ -25,7 +24,7 @@ const Newsletter = () => {
               </div>
               <div className="absolute bottom-8 left-2">
                 <Image
-                  src={getImagePath("/assets/newsletter/circel.svg")}
+                  src="/assets/newsletter/circel.svg"
                   alt="circleimg"
                   width={30}
                   height={30}
@@ -53,7 +52,7 @@ const Newsletter = () => {
               />
               <button className="bg-midblue text-white font-medium py-2 px-4 rounded-r-lg">
                 <Image
-                  src={getImagePath("/assets/newsletter/plane.svg")}
+                  src="/assets/newsletter/plane.svg"
                   alt="plane-img"
                   width={20}
                   height={20}

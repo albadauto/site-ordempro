@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { getImagePath } from "../../../lib/utils";
 
 interface cardDataType {
   imgSrc: string;
@@ -10,28 +9,28 @@ interface cardDataType {
 
 const cardData: cardDataType[] = [
   {
-    imgSrc: getImagePath("/assets/buyers/ourbuyers.svg"),
+    imgSrc: "/assets/buyers/ourbuyers.svg",
     percent: "+5 mil",
     heading: "Ordens gerenciadas",
     subheading:
         "Controle completo de ordens de serviço com atualização em tempo real.",
   },
   {
-    imgSrc: getImagePath("/assets/buyers/projectcompleted.svg"),
+    imgSrc: "/assets/buyers/projectcompleted.svg",
     percent: "24h",
     heading: "Rastreamento online",
     subheading:
         "Clientes acompanham o andamento do reparo usando um código exclusivo.",
   },
   {
-    imgSrc: getImagePath("/assets/buyers/happybuyers.svg"),
+    imgSrc: "/assets/buyers/happybuyers.svg",
     percent: "98%",
     heading: "Clientes satisfeitos",
     subheading:
         "Reduza dúvidas e aumente a confiança com atualizações automáticas.",
   },
   {
-    imgSrc: getImagePath("/assets/buyers/teammembers.svg"),
+    imgSrc: "/assets/buyers/teammembers.svg",
     percent: "+100",
     heading: "Assistências técnicas",
     subheading:

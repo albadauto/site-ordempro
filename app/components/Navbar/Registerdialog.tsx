@@ -1,7 +1,6 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { LockClosedIcon } from "@heroicons/react/20/solid";
 import { Fragment, useState } from "react";
-import { getImagePath } from "../../../lib/utils";
 
 const Register = () => {
   let [isOpen, setIsOpen] = useState(false);
@@ -57,7 +56,7 @@ const Register = () => {
                       <div>
                         <img
                           className="mx-auto h-12 w-auto"
-                          src={getImagePath("/assets/logo/logo.png")}
+                          src="/assets/logo/logo.png"
                           alt="Your Company"
                         />
                         <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">

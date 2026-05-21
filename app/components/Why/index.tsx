@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { getImagePath } from "../../../lib/utils";
 
 interface whydata {
   heading: string;
@@ -34,7 +33,7 @@ const Why = () => {
             {/* COLUMN-1 */}
             <div className="flex justify-center lg:justify-start">
               <Image
-                  src={getImagePath("/assets/why/iPad.png")}
+                  src="/assets/why/iPad.png"
                   alt="Painel do sistema"
                   width={900}
                   height={900}
@@ -66,7 +65,7 @@ const Why = () => {
                     >
                       <div className="rounded-2xl min-h-[52px] min-w-[52px] flex items-center justify-center bg-[#050a30]/10">
                         <Image
-                            src={getImagePath("/assets/why/check.svg")}
+                            src="/assets/why/check.svg"
                             alt="check"
                             width={24}
                             height={24}

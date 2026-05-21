@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { getImagePath } from "../../../lib/utils";
 
 interface datatype {
   imgSrc: string;
@@ -10,25 +9,25 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
   {
-    imgSrc: getImagePath("/assets/provide/marketing.svg"),
+    imgSrc: "/assets/provide/marketing.svg",
     title: "Controle de Ordens",
     paragraph:
         "Gerencie entradas, diagnósticos, aprovações e entrega dos aparelhos.",
   },
   {
-    imgSrc: getImagePath("/assets/provide/graphic.svg"),
+    imgSrc: "/assets/provide/graphic.svg",
     title: "Tracking Online",
     paragraph:
         "Clientes acompanham o status do reparo usando um código exclusivo.",
   },
   {
-    imgSrc: getImagePath("/assets/provide/heaking.svg"),
+    imgSrc: "/assets/provide/heaking.svg",
     title: "Atualizações em Tempo Real",
     paragraph:
         "Envie automaticamente mudanças de status e mantenha o cliente informado.",
   },
   {
-    imgSrc: getImagePath("/assets/provide/uidesign.svg"),
+    imgSrc:"/assets/provide/uidesign.svg",
     title: "Painel Completo",
     paragraph:
         "Tenha visão total de serviços, técnicos, clientes e faturamento.",
@@ -68,7 +67,7 @@ const Provide = () => {
                   Conhecer o sistema
 
                   <Image
-                      src={getImagePath("/assets/provide/arrow.svg")}
+                      src="/assets/provide/arrow.svg"
                       alt={"arrow"}
                       width={20}
                       height={20}

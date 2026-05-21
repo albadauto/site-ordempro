@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { getImagePath } from "../../../lib/utils";
 
 const Banner = () => {
   return (
@@ -43,7 +42,7 @@ const Banner = () => {
 
             <div className="mt-16">
               <Image
-                  src={getImagePath("/assets/banner/dashboard.png")}
+                  src="/assets/banner/dashboard.png"
                   alt="Painel do sistema de ordem de serviço"
                   width={1200}
                   height={598}

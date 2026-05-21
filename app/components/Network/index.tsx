@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { getImagePath } from "../../../lib/utils";
 
 interface datatype {
   imgSrc: string;
@@ -9,22 +8,22 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
   {
-    imgSrc: getImagePath("/assets/network/bangladesh.svg"),
+    imgSrc: "/assets/network/bangladesh.svg",
     country: "Bangladesh",
     paragraph: "Event madness gathering innoies, & tech enthusiasts in Speced.",
   },
   {
-    imgSrc: getImagePath("/assets/network/america.svg"),
+    imgSrc: "/assets/network/america.svg",
     country: "United States",
     paragraph: "Event madness gathering innoies, & tech enthusiasts in Speced.",
   },
   {
-    imgSrc: getImagePath("/assets/network/australia.svg"),
+    imgSrc: "/assets/network/australia.svg",
     country: "Australia",
     paragraph: "Event madness gathering innoies, & tech enthusiasts in Speced.",
   },
   {
-    imgSrc: getImagePath("/assets/network/china.svg"),
+    imgSrc: "/assets/network/china.svg",
     country: "China",
     paragraph: "Event madness gathering innoies, & tech enthusiasts in Speced.",
   },
@@ -39,7 +38,7 @@ const Network = () => {
         </h3>
 
         <Image
-          src={getImagePath("/assets/network/map.png")}
+          src={"/assets/network/map.png"}
           alt={"map-image"}
           width={1400}
           height={800}

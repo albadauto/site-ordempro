@@ -2,7 +2,6 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import React from "react";
-import { getImagePath } from "../../../lib/utils";
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Registerdialog from "./Registerdialog";
@@ -40,12 +39,12 @@ const Navbar = () => {
               <div className="flex flex-shrink-0 items-center">
                 <img
                   className="block h-12 w-10 lg:hidden"
-                  src={getImagePath("/assets/logo/logo.png")}
+                  src="/assets/logo/logo.png"
                   alt="dsign-logo" width={100}
                 />
                 <img
                   className="hidden lg:block"
-                  src={getImagePath("/assets/logo/logo.png")}
+                  src="/assets/logo/logo.png"
                   alt="dsign-logo" width={220}
                 />
               </div>

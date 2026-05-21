@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { getImagePath } from "../../../lib/utils";
 
 const Footer = () => {
   return (
@@ -14,7 +13,7 @@ const Footer = () => {
             {/* LOGO */}
             <div className="flex flex-col">
               <img
-                  src={getImagePath("/assets/logo/logo-white.png")}
+                  src="/assets/logo/logo-white.png"
                   alt="logo"
                   width={220}
                   className="mb-6"
@@ -71,7 +70,7 @@ const Footer = () => {
 
               <div className="flex items-center gap-3 mb-5">
                 <Image
-                    src={getImagePath("/assets/footer/telephone.svg")}
+                    src="/assets/footer/telephone.svg"
                     alt="telephone-icon"
                     width={22}
                     height={22}
@@ -84,7 +83,7 @@ const Footer = () => {
 
               <div className="flex items-center gap-3">
                 <Image
-                    src={getImagePath("/assets/footer/email.svg")}
+                    src="/assets/footer/email.svg"
                     alt="email-icon"
                     width={22}
                     height={22}

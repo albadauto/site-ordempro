@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { Component } from "react";
 import Slider from "react-slick";
-import { getImagePath } from "../../../lib/utils";
 
 // IMAGES DATA FOR CAROUSEL
 interface Data {
@@ -11,28 +10,28 @@ interface Data {
 
 const data: Data[] = [
   {
-    imgSrc: getImagePath("/assets/carousel/google.svg"),
+    imgSrc: "/assets/carousel/google.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/garnier.png"),
+    imgSrc: "/assets/carousel/garnier.png",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/slack.png"),
+    imgSrc: "/assets/carousel/slack.png",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/udemy.png"),
+    imgSrc: "/assets/carousel/udemy.png",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/google.svg"),
+    imgSrc: "/assets/carousel/google.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/garnier.png"),
+    imgSrc: "/assets/carousel/garnier.png",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/slack.png"),
+    imgSrc: "/assets/carousel/slack.png",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/udemy.png"),
+    imgSrc: "/assets/carousel/udemy.png",
   },
 ];
 
