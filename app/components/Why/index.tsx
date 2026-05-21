@@ -33,7 +33,7 @@ const Why = () => {
             {/* COLUMN-1 */}
             <div className="flex justify-center lg:justify-start">
               <Image
-                  src="/assets/iPad.png"
+                  src="iPad.png"
                   alt="Painel do sistema"
                   width={900}
                   height={900}
